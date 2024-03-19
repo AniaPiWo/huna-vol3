@@ -23,6 +23,7 @@
   font-size: 1.25rem;
   z-index: var(--z-tooltip);
   transition: bottom 0.4s, transform 0.4s;
+  color: var(--first-color);
 
   &:hover {
     transform: translateY(-0.5rem);

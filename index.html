@@ -14,7 +14,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.7.0/remixicon.css"
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <title>BakeryWebsite</title>
+    <title>HUNA Polski producent odzieży</title>
   </head>
   <body>
     <header class="header" id="header">
@@ -32,7 +32,7 @@
               <a href="#about" class="nav__link">O nas</a>
             </li>
             <li class="nav__item">
-              <a href="#visit" class="nav__link">Kontakt</a>
+              <a href="#contact" class="nav__link">Kontakt</a>
             </li>
           </ul>
 
@@ -49,7 +49,7 @@
 
     <main class="main">
       <section class="home section" id="home">
-        <img src="assets/img/home-bg.jpg" alt="image" class="home__bg" />
+        <img src="assets/img/background.jpg" alt="image" class="home__bg" />
         <div class="home__shadow"></div>
 
         <div class="home__container container grid">
@@ -59,7 +59,7 @@
               odzieży damskiej
             </h1>
             <p>Elegancja w każdym szwie! Odkryj naszą modę już dziś.</p>
-            <a href="#" class="button">Sprawdź ofertę</a>
+            <a href="#new" class="button">Sprawdź ofertę</a>
           </div>
 
           <div class="home__image">
@@ -85,58 +85,41 @@
       </section>
 
       <section class="new section" id="new">
-        <h2 class="section__title">New Breads</h2>
+        <h2 class="section__title">Elegancja Dla Kobiet</h2>
 
-        <div class="new__container container grid">
-          <div class="new__content grid">
+        <div class="new__container container">
+          <div class="new__content">
+
             <article class="new__card">
               <div class="new__data">
-                <h2 class="new__title">Rye Bread</h2>
+                <img src="assets/img/coat.png" alt="image" class="new__img" />
+                <h2 class="new__title">Płaszcze</br> zimowe</h2>
                 <p class="new__description">
-                  Baked with healthy, gluten-free sourdough for good nutrition.
+                  Płaszcze ocieplane, na podszewce.
                 </p>
               </div>
-
-              <img
-                src="assets/img/new-bread-1.png"
-                alt="image"
-                class="new__img"
-              />
             </article>
 
             <article class="new__card">
               <div class="new__data">
-                <h2 class="new__title">Whole Grain Bread</h2>
+                <img src="assets/img/coat2.png" alt="image" class="new__img" />
+                <h2 class="new__title">Płaszcze</br>przejściowe</h2>
                 <p class="new__description">
-                  Crispy and homemade prepared from organic yeast-free flour.
+                  Płaszcze nieocieplane lub ocieplane delikatne, na podszewce.
                 </p>
               </div>
-
-              <img
-                src="assets/img/new-bread-2.png"
-                alt="image"
-                class="new__img"
-              />
             </article>
 
             <article class="new__card">
               <div class="new__data">
-                <h2 class="new__title">Multigrain Bread</h2>
+                <img src="assets/img/dress.png" alt="image" class="new__img" />
+                <h2 class="new__title">Sukienki</br> i żakiety</h2>
                 <p class="new__description">
-                  Tasty and made with different natural grains from the
-                  countryside.
+                  Eleganckie sukienki i żakiety na wyjątkowe okazje.
                 </p>
               </div>
-
-              <img
-                src="assets/img/new-bread-3.png"
-                alt="image"
-                class="new__img"
-              />
             </article>
           </div>
-
-          <a href="#" class="new__button button">See More Breads</a>
         </div>
       </section>
 
@@ -161,22 +144,41 @@
               sukienki marki HUNA cieszą się tak wielką popularnością.
             </p>
 
-            <a href="#" class="button">Skontaktuj się z nami</a>
+            <a href="#contact" class="button">Skontaktuj się z nami</a>
           </div>
 
           <img src="assets/img/about1.png" alt="image" class="about__img" />
         </div>
       </section>
 
-      <section class="favorite section" id="visit">
-        <h2 class="section__title">Customer Favorites</h2>
-
-        <div class="favorite__container container grid"></div>
-      </section>
-
-      <section class="visit section" id="map">
+      <section class="contact section" id="contact">
+        <div class="contact__container">
+          <h2 class="section__title">Kontakt</h2>
+          <h4 class="contact__subtitle">
+            Zapraszamy do kontaktu na poniższe numery WYŁĄCZNIE klientów
+            hurtowych.
+          </h4>
+          <div class="contact__numbers container">
+            <div class="contact__item">
+              <h3 class="contact__description">
+                Przedstawiciel handlowy:
+                <a href="tel:0048698416665">
+                  <p><i class="ri-phone-line"></i>+48 698 416 665</p>
+                </a>
+              </h3>
+            </div>
+            <div class="contact__item">
+              <h3 class="contact__description">
+                Stoisko firmowe na CH PTAK:
+                <a href="tel:0048730591382">
+                  <p><i class="ri-phone-line"></i>A181: +48 730 591 382</p>
+                </a>
+              </h3>
+            </div>
+          </div>
+        </div>
         <div class="visit__container">
-          <img src="assets/img/home-bg.jpg" alt="image" class="visit__bg" />
+          <img src="assets/img/contact_bg.jpg" alt="image" class="visit__bg" />
           <div class="visit__shadow"></div>
 
           <div class="visit__content container">
@@ -203,7 +205,6 @@
           </div>
         </div>
       </section>
-    </main>
 
     <footer class="footer">
       <div class="footer__container container grid">
@@ -235,13 +236,22 @@
 
             <ul class="footer__list">
               <li>
-                <a href="mailto:huna@onet.pl">huna@onet.pl</a>
+                <a href="mailto:huna@onet.pl">
+                  <i class="ri-mail-line"></i>
+                  huna@onet.pl</a
+                >
               </li>
               <li>
-                <a href="tel:+48327295676">+48 32 729 56 76</a>
+                <a href="tel:+48327295676">
+                  <i class="ri-phone-line"></i>
+                  +48 32 729 56 76</a
+                >
               </li>
               <li>
-                <a href="tel:0048698416665">+48 698 416 665</a>
+                <a href="tel:0048698416665">
+                  <i class="ri-phone-line"></i>
+                  +48 698 416 665</a
+                >
               </li>
             </ul>
           </div>

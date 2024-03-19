@@ -1,0 +1,36 @@
+.contact {
+  &__numbers {
+    padding-top: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  &__subtitle {
+    font-size: var(--normal-font-size);
+    text-align: center;
+  }
+
+  &__description {
+    margin-bottom: 1rem;
+    text-align: center;
+    transition: color 0.4s;
+    & i {
+      color: var(--first-color);
+      margin-right: 0.5rem;
+    }
+
+    & a {
+      transition: color 0.4s;
+
+      &:hover {
+        color: var(--first-color);
+      }
+    }
+  }
+}
