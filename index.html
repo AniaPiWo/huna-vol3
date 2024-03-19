@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      defer
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.7.0/remixicon.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>BakeryWebsite</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">HUNA</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#new" class="nav__link">Oferta</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">O nas</a>
+            </li>
+            <li class="nav__item">
+              <a href="#visit" class="nav__link">Kontakt</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <img src="assets/img/home-bg.jpg" alt="image" class="home__bg" />
+        <div class="home__shadow"></div>
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              Polski producent<br />
+              odzieży damskiej
+            </h1>
+            <p>Elegancja w każdym szwie! Odkryj naszą modę już dziś.</p>
+            <a href="#" class="button">Sprawdź ofertę</a>
+          </div>
+
+          <div class="home__image">
+            <img src="assets/img/hero4.png" alt="image" class="home__img" />
+          </div>
+
+          <footer class="home__footer">
+            <div class="home__location">
+              <i class="ri-phone-line"></i>
+              <a href="tel:0048698416665">+48 698 416 665</a>
+            </div>
+
+            <div class="home__social">
+              <a
+                href="https://www.facebook.com/profile.php?id=100063633504889"
+                target="_blank"
+              >
+                <i class="ri-facebook-circle-line"></i>
+              </a>
+            </div>
+          </footer>
+        </div>
+      </section>
+
+      <section class="new section" id="new">
+        <h2 class="section__title">New Breads</h2>
+
+        <div class="new__container container grid">
+          <div class="new__content grid">
+            <article class="new__card">
+              <div class="new__data">
+                <h2 class="new__title">Rye Bread</h2>
+                <p class="new__description">
+                  Baked with healthy, gluten-free sourdough for good nutrition.
+                </p>
+              </div>
+
+              <img
+                src="assets/img/new-bread-1.png"
+                alt="image"
+                class="new__img"
+              />
+            </article>
+
+            <article class="new__card">
+              <div class="new__data">
+                <h2 class="new__title">Whole Grain Bread</h2>
+                <p class="new__description">
+                  Crispy and homemade prepared from organic yeast-free flour.
+                </p>
+              </div>
+
+              <img
+                src="assets/img/new-bread-2.png"
+                alt="image"
+                class="new__img"
+              />
+            </article>
+
+            <article class="new__card">
+              <div class="new__data">
+                <h2 class="new__title">Multigrain Bread</h2>
+                <p class="new__description">
+                  Tasty and made with different natural grains from the
+                  countryside.
+                </p>
+              </div>
+
+              <img
+                src="assets/img/new-bread-3.png"
+                alt="image"
+                class="new__img"
+              />
+            </article>
+          </div>
+
+          <a href="#" class="new__button button">See More Breads</a>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title">Polska produkcja</h2>
+            <p class="about__description">
+              Tylko najlepsza jakość <span class="accent">.</span>
+            </p>
+            <p class="about__description">
+              Huna to polska firma zajmującą się produkcją damskiej odzieży
+              wierzchniej. To propozycje dla kobiet, które poszukują w ubraniach
+              nie tylko skrojonych niczym na miarę fasonów, ale także ciekawego
+              wzornictwa i twarzowych kolorów.
+            </p>
+
+            <p class="about__description">
+              Nasze produkty charakteryzuje wysoka jakość materiałów i staranne
+              wykonanie. To dlatego stylowe kurtki, szykowne marynarki,
+              eleganckie płaszcze, modne żakiety oraz zachwycające kobiece
+              sukienki marki HUNA cieszą się tak wielką popularnością.
+            </p>
+
+            <a href="#" class="button">Skontaktuj się z nami</a>
+          </div>
+
+          <img src="assets/img/about1.png" alt="image" class="about__img" />
+        </div>
+      </section>
+
+      <section class="favorite section" id="visit">
+        <h2 class="section__title">Customer Favorites</h2>
+
+        <div class="favorite__container container grid"></div>
+      </section>
+
+      <section class="visit section" id="map">
+        <div class="visit__container">
+          <img src="assets/img/home-bg.jpg" alt="image" class="visit__bg" />
+          <div class="visit__shadow"></div>
+
+          <div class="visit__content container">
+            <div class="visit__data">
+              <h2 class="section__title">Nasz adres</h2>
+              <p class="visit__description">
+                ul. Perla 10a, 41-200 Dąbrowa Górnicza
+              </p>
+
+              <button id="iframeBtn" class="button">Zobacz na mapie</button>
+
+              <div class="visit__iframe hidden" id="iframe">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1273.5552872359274!2d19.165869356430353!3d50.32718826942879!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716da12206fbdbb%3A0xe7035a8c1bf1641b!2sPolskie%20P%C5%82aszcze%20HUNA!5e0!3m2!1spl!2spl!4v1700222524025!5m2!1spl!2spl"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo">HUNA</a>
+          <p class="footer__description">
+            Polski producent<br />
+            odzieży.
+          </p>
+        </div>
+
+        <div class="footer__content grid">
+          <div>
+            <h3 class="footer__title">Address</h3>
+
+            <ul class="footer__list">
+              <li>
+                <address class="footer__info">ul. Perla 10a</address>
+              </li>
+
+              <li>
+                <address class="footer__info">41-300 Dąbrowa Górnicza</address>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Kontakt</h3>
+
+            <ul class="footer__list">
+              <li>
+                <a href="mailto:huna@onet.pl">huna@onet.pl</a>
+              </li>
+              <li>
+                <a href="tel:+48327295676">+48 32 729 56 76</a>
+              </li>
+              <li>
+                <a href="tel:0048698416665">+48 698 416 665</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Follow Us</h3>
+
+            <div class="footer__social">
+              <a
+                href="https://www.facebook.com/profile.php?id=100063633504889"
+                target="_blank"
+              >
+                <i class="ri-facebook-circle-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <span class="footer__copy">
+        © Seahorse <span id="year"></span> All rigths reserved
+      </span>
+    </footer>
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
