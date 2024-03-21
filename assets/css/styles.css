@@ -397,6 +397,7 @@ a {
 }
 .contact__description a {
   transition: color 0.4s;
+  margin-top: 0.5rem;
 }
 .contact__description a:hover {
   color: var(--first-color);
